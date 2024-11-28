@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: rgb(149, 162, 158);
+}
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#texto {
+    font-weight: bold;
+    font-size: 30px;
+}
+#texto1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+#texto_titulo{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+#centralizar_calculadora{ /* div pai que deixa a div filha centralizada */
+    display: flex; 
+    justify-content: center; /*alinha a div filha no centro horizontal */
+    align-items: center; /* alinha a div filha no centrovertical */
+}
+.div_calculadora{
+    background-color: rgb(234, 232, 230);
+    width: 20%;
+    border-radius: 10px;
+}
+#operacao{
+    padding-right: 5%;
+}
+.texto_esquerda{
+    text-align: left;
+    margin-left: 22%;
+}
+#botao{
+    margin-top: 5%;
+    width: 55%;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 2px;
+}
+#resultado{
+    padding: 0%;
+    margin: 0%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/272/PNG/512/Calculator_30001.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <p id="texto"> Bem-vindo a um protótipo de calculadora!</p>
+        <p id="texto1"> Feito por: Gustavo Floriano</p>
+    </header>
+    <div id="centralizar_calculadora">
+        <div class="div_calculadora">
+            <p id="texto_titulo"> Calculadora</p>
+            <div>
+                <select id="operacao">
+                    <option> Escolha uma operação </option>
+                    <option value="+"> +</option>
+                    <option value="-"> -</option>
+                    <option value="x"> x</option>
+                    <option value="/"> /</option>
+                </select>
+            </div>
+            <div class="texto_esquerda">
+                <p id="numero1"> Primeiro número:</p>
+            </div>
+            <div>
+                <input type="text" name="numero-input1" id="input1">
+            </div>
+            <div>
+            <div class="texto_esquerda">
+                <p id="numero2"> Segundo número:</p>
+            </div>
+            <div>
+                <input type="text" name="numero-input2" id="input2">
+            </div>
+            <div>
+                <button id="botao"> Calcular</button>
+            </div>
+            <div class="texto_esquerda">
+                <p> O resultado, é:</p>
+            </div>
+            <div id="resultado"></div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
